@@ -1,0 +1,16 @@
+﻿Build started 2018. 01. 18. 11:46:55.
+     1>Project "C:\Users\Adam\documents\visual studio 2013\Projects\gyakorlas\gyakorlas\gyakorlas.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programfájlok (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt gyakorlas.c
+         gyakorlas.c
+     1>c:\users\adam\documents\visual studio 2013\projects\gyakorlas\gyakorlas\gyakorlas.c(37): warning C4047: '<' : 'char [11]' differs in levels of indirection from 'int'
+     1>c:\users\adam\documents\visual studio 2013\projects\gyakorlas\gyakorlas\gyakorlas.c(38): warning C4047: '>' : 'char [11]' differs in levels of indirection from 'int'
+     1>c:\users\adam\documents\visual studio 2013\projects\gyakorlas\gyakorlas\gyakorlas.c(46): warning C4013: 'szamell' undefined; assuming extern returning int
+       Link:
+         D:\Programfájlok (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Adam\documents\visual studio 2013\Projects\gyakorlas\Debug\gyakorlas.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Adam\documents\visual studio 2013\Projects\gyakorlas\Debug\gyakorlas.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Adam\documents\visual studio 2013\Projects\gyakorlas\Debug\gyakorlas.lib" /MACHINE:X86 Debug\gyakorlas.obj
+         gyakorlas.vcxproj -> C:\Users\Adam\documents\visual studio 2013\Projects\gyakorlas\Debug\gyakorlas.exe
+     1>Done Building Project "C:\Users\Adam\documents\visual studio 2013\Projects\gyakorlas\gyakorlas\gyakorlas.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.77
